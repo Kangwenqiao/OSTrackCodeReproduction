@@ -1,4 +1,1 @@
-try:
-    from .admin.multigpu import MultiGPU
-except ImportError:
-    pass
+from .admin.multigpu import MultiGPU
